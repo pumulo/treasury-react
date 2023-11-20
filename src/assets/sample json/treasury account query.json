@@ -1,0 +1,278 @@
+[
+    {
+        "type": "Treasury Account",
+        "description": "Bank of America Treasury Account",
+        "values": {
+            "AccountNumber": "13719713158835300",
+            "ACHNumber": "011000088",
+            "Organization": "XYZ Corporation",
+            "Bank": "Bank of America",
+            "AccountType": "Treasury Account",
+            "OrganizationInformation": "Established in 2005, XYZ Corporation is a multinational technology company based in California. It operates in various sectors, including software development, hardware manufacturing, and IT services.",
+            "gcl_AuthorizedUsers": [
+                {
+                    "type": "User",
+                    "description": "Chief Financial Officer",
+                    "values": {
+                        "gc_User": "65285a018ba124f7a1bacca4"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a018ba124f7a1bacca5",
+                    "createdAt": "2023-10-12T20:41:37.942Z",
+                    "updatedAt": "2023-10-12T20:41:37.942Z",
+                    "__v": 0
+                },
+                {
+                    "type": "User",
+                    "description": "Treasury Manager",
+                    "values": {
+                        "gc_User": "65285a018ba124f7a1bacca6"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a018ba124f7a1bacca7",
+                    "createdAt": "2023-10-12T20:41:37.942Z",
+                    "updatedAt": "2023-10-12T20:41:37.942Z",
+                    "__v": 0
+                },
+                {
+                    "type": "User",
+                    "description": "Global Finance Director",
+                    "values": {
+                        "gc_User": "65285a018ba124f7a1bacca8"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a018ba124f7a1bacca9",
+                    "createdAt": "2023-10-12T20:41:37.943Z",
+                    "updatedAt": "2023-10-12T20:41:37.943Z",
+                    "__v": 0
+                }
+            ],
+            "FinancialAttributes": {
+                "Currency": "USD",
+                "AverageMonthlyBalance": "$5,000,000",
+                "CreditLimit": "$10,000,000",
+                "DailyTransactionLimit": "$1,000,000",
+                "FreeWireTransfers": "Up to 10 per month",
+                "OverdraftFacility": "$1,000,000",
+                "CurrentBalance": "$6,150,000"
+            },
+            "InternationalBankingServices": {
+                "Global Wire Transfer": true,
+                "Foreign Currency Exchange": true,
+                "International Trade Financing": true,
+                "Letters of Credit": true
+            }
+        },
+        "status": "New-CreatedByAiBatch",
+        "createdAt": "2023-10-13T18:03:58.764Z",
+        "updatedAt": "2023-10-16T14:06:52.282Z",
+        "id": "6529868e8ba124f7a1bacd2c"
+    },
+    {
+        "type": "Treasury Account",
+        "description": "Bank of America Treasury Account",
+        "values": {
+            "AccountNumber": "71086643758945400",
+            "ACHNumber": "161000425",
+            "Organization": "ABC Inc.",
+            "Bank": "Bank of America",
+            "AccountType": "Treasury Account",
+            "OrganizationInformation": "ABC Inc. is a multinational retail corporation with headquarters in New York. It operates a chain of department stores and has a significant presence in the fashion industry.",
+            "gcl_AuthorizedUsers": [
+                {
+                    "type": "User",
+                    "description": "Chief Financial Officer",
+                    "values": {
+                        "gc_User": "65285a018ba124f7a1baccb3"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a018ba124f7a1baccb4",
+                    "createdAt": "2023-10-12T20:41:37.993Z",
+                    "updatedAt": "2023-10-12T20:41:37.993Z",
+                    "__v": 0
+                },
+                {
+                    "type": "User",
+                    "description": "Treasury Manager",
+                    "values": {
+                        "gc_User": "65285a018ba124f7a1baccb5"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a018ba124f7a1baccb6",
+                    "createdAt": "2023-10-12T20:41:37.993Z",
+                    "updatedAt": "2023-10-12T20:41:37.993Z",
+                    "__v": 0
+                },
+                {
+                    "type": "User",
+                    "description": "International Finance Manager",
+                    "values": {
+                        "gc_User": "65285a018ba124f7a1baccb7"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a018ba124f7a1baccb8",
+                    "createdAt": "2023-10-12T20:41:37.993Z",
+                    "updatedAt": "2023-10-12T20:41:37.993Z",
+                    "__v": 0
+                }
+            ],
+            "FinancialAttributes": {
+                "AverageMonthlyBalance": "$3,500,000",
+                "CreditLimit": "$7,000,000",
+                "DailyTransactionLimit": "$800,000",
+                "FreeWireTransfers": "Up to 5 per month",
+                "OverdraftFacility": "$500,000",
+                "CurrentBalance": "$6,000,000",
+                "Currency": "USD"
+            },
+            "InternationalBankingServices": {
+                "International Cash Management Solutions": true,
+                "Foreign Currency Accounts": true,
+                "Trade Finance Facilities": true,
+                "Risk Management Services": true
+            }
+        },
+        "status": "New-CreatedByAiBatch",
+        "createdAt": "2023-10-13T18:06:55.655Z",
+        "updatedAt": "2023-10-16T14:09:41.638Z",
+        "id": "6529873f8ba124f7a1bacd33"
+    },
+    {
+        "type": "Treasury Account",
+        "description": "Bank of America Treasury Account",
+        "values": {
+            "AccountNumber": "53153834006064000",
+            "ACHNumber": "555550333",
+            "Organization": "MNO Ltd.",
+            "Bank": "Bank of America",
+            "AccountType": "Treasury Account",
+            "OrganizationInformation": "MNO Ltd. is a multinational manufacturing company based in Texas. It specializes in producing industrial machinery and equipment and has subsidiaries in several countries.",
+            "gcl_AuthorizedUsers": [
+                {
+                    "type": "User",
+                    "description": "Chief Financial Officer",
+                    "values": {
+                        "gc_User": "65285a028ba124f7a1baccc2"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a028ba124f7a1baccc3",
+                    "createdAt": "2023-10-12T20:41:38.019Z",
+                    "updatedAt": "2023-10-12T20:41:38.019Z",
+                    "__v": 0
+                },
+                {
+                    "type": "User",
+                    "description": "Treasury Manager",
+                    "values": {
+                        "gc_User": "65285a028ba124f7a1baccc4"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a028ba124f7a1baccc5",
+                    "createdAt": "2023-10-12T20:41:38.019Z",
+                    "updatedAt": "2023-10-12T20:41:38.019Z",
+                    "__v": 0
+                },
+                {
+                    "type": "User",
+                    "description": "International Finance Manager",
+                    "values": {
+                        "gc_User": "65285a028ba124f7a1baccc6"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a028ba124f7a1baccc7",
+                    "createdAt": "2023-10-12T20:41:38.019Z",
+                    "updatedAt": "2023-10-12T20:41:38.019Z",
+                    "__v": 0
+                }
+            ],
+            "FinancialAttributes": {
+                "AverageMonthlyBalance": "$2,000,000",
+                "CreditLimit": "$5,000,000",
+                "DailyTransactionLimit": "$500,000",
+                "FreeWireTransfers": "Up to 3 per month",
+                "OverdraftFacility": "$300,000",
+                "CurrentBalance": "$2.650,000",
+                "Currency": "USD"
+            },
+            "InternationalBankingServices": {
+                "Global Fund Transfers": true,
+                "Foreign Currency Sweeping": true,
+                "Trade Finance Solutions": true,
+                "Import/Export Documentation Assistance": true
+            }
+        },
+        "status": "New-CreatedByAiBatch",
+        "createdAt": "2023-10-13T18:08:55.638Z",
+        "updatedAt": "2023-10-16T14:11:31.568Z",
+        "id": "652987b78ba124f7a1bacd39"
+    },
+    {
+        "type": "Treasury Account",
+        "description": "Bank of America Treasury Account",
+        "values": {
+            "AccountNumber": "3690859741294280",
+            "ACHNumber": "123004458",
+            "Organization": "PQR Co.",
+            "Bank": "Bank of America",
+            "AccountType": "Treasury Account",
+            "OrganizationInformation": "PQR Co. is a multinational pharmaceutical company headquartered in Illinois. It focuses on developing and manufacturing prescription drugs and has operations in various countries.",
+            "gcl_AuthorizedUsers": [
+                {
+                    "type": "User",
+                    "description": "Chief Financial Officer",
+                    "values": {
+                        "gc_User": "65285a028ba124f7a1baccd1"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a028ba124f7a1baccd2",
+                    "createdAt": "2023-10-12T20:41:38.054Z",
+                    "updatedAt": "2023-10-12T20:41:38.054Z",
+                    "__v": 0
+                },
+                {
+                    "type": "User",
+                    "description": "Treasury Manager",
+                    "values": {
+                        "gc_User": "65285a028ba124f7a1baccd3"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a028ba124f7a1baccd4",
+                    "createdAt": "2023-10-12T20:41:38.054Z",
+                    "updatedAt": "2023-10-12T20:41:38.054Z",
+                    "__v": 0
+                },
+                {
+                    "type": "User",
+                    "description": "International Finance Director",
+                    "values": {
+                        "gc_User": "65285a028ba124f7a1baccd5"
+                    },
+                    "status": "New-CreatedByAiBatch",
+                    "_id": "65285a028ba124f7a1baccd6",
+                    "createdAt": "2023-10-12T20:41:38.054Z",
+                    "updatedAt": "2023-10-12T20:41:38.054Z",
+                    "__v": 0
+                }
+            ],
+            "FinancialAttributes": {
+                "AverageMonthlyBalance": "$4,500,000",
+                "CreditLimit": "$8,000,000",
+                "DailyTransactionLimit": "$900,000",
+                "FreeWireTransfers": "Up to 8 per month",
+                "OverdraftFacility": "$700,000",
+                "CurrentBalance": "$4.950,000",
+                "Currency": "USD"
+            },
+            "InternationalBankingServices": {
+                "Multicurrency Accounts": true,
+                "Cash Pooling Services": true,
+                "Trade Financing Solutions": true,
+                "Foreign Exchange Risk Hedging": true
+            }
+        },
+        "status": "New-CreatedByAiBatch",
+        "createdAt": "2023-10-13T18:10:21.458Z",
+        "updatedAt": "2023-10-16T14:13:37.745Z",
+        "id": "6529880d8ba124f7a1bacd3e"
+    }
+]
