@@ -18,6 +18,9 @@ import { AccountMaintenance } from "./components/treasury/account/AccountMainten
 import { UserMaintenance } from "./components/treasury/user/UserMaintenance";
 import { GatherDocuments } from "./components/treasury/documents/GatherDocuments";
 import { TransactionSummary } from "./components/treasury/account/TransactionSummary";
+import { PaymentPegaWidget } from "./components/treasury/payments/PaymentPegaWidget";
+import { PaymentCase } from "./components/treasury/payments/PaymentCase";
+import { CreatePayment } from "./components/treasury/payments/CreatePayment";
   
 const router = createBrowserRouter(
     [
@@ -82,6 +85,24 @@ const router = createBrowserRouter(
                     path:"/deposits/:accountID",
                     element: (
                         <RemoteDeposit />
+                    )
+                },
+                {
+                    path:"/payments",
+                    element: (
+                        <PaymentPegaWidget />
+                    )
+                },
+                {
+                    path:"/payments/:paymentID",
+                    element: (
+                        <PaymentCase />
+                    )
+                },
+                {
+                    path:"/payment/new",
+                    element: (
+                        <CreatePayment />
                     )
                 },
                 {

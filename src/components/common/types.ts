@@ -59,10 +59,37 @@ interface EntityUserI {
     createdAt: string
 }
 
+interface EntityPaymentI {
+    id: string
+    type: string
+    description: string
+    values: {
+        Amount: number
+        ApprovalDate: string
+        ApprovalUser: string
+        Autorization: boolean
+        Date: string
+        Destination: string
+        Frequency: string
+        Memo: string
+        Method: string
+        PayeeAccountNumber: string
+        PayeeName: string
+        ReferenceNumber: string
+        RejectionDate: string
+        RejectionReason: string
+        Source: string
+        Status: string
+        Currency: string
+    }
+    status: string
+    createdAt: string
+}
+
 interface ContactInformationI {
     name: string,
     email: string,
     phone: string
 }
 
-export {EntityI, AccountI, EntityUserI, ContactInformationI};
+export {EntityI, AccountI, EntityUserI, EntityPaymentI, ContactInformationI};

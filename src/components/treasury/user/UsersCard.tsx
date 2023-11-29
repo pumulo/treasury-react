@@ -1,6 +1,5 @@
 import React from "react";
 import { SectionHeader } from "../SectionHeader";
-import { UserList } from "./UserList";
 import { UserTable } from "./UserTable";
 
 export const UsersCard = (props: any) => {

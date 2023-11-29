@@ -11,13 +11,13 @@ const Dashboard = () => {
             <div className="flex flex-row min-w-full min-h-fit p-0">
                 {/* left panel */}
                 <div className="flex flex-col w-1/2 min-h-fit">
+                    <PaymentsCard width='min-w-1/4'/>
                     <UsersCard />
                     {/* <ReportsBox /> */}
                 </div>
                 {/* middle panel */}
                 <div className="flex flex-col w-1/4 min-h-fit">
                     <AccountsCard width='min-w-1/4'/>
-                    {/* <PaymentsCard width='min-w-1/4'/> */}
                 </div>
                 {/* rights panel */}
                 <div className="flex flex-col w-1/4 min-h-fit">
