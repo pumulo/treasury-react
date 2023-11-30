@@ -1,24 +1,27 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { BasePegaDivProps, PEGA_ACTION, basePegaDiv } from "../../common/PegaDivProps";
+import { SectionHeader, viewState } from "../SectionHeader";
+import { TWPegaDiv } from "../../common/PegaDiv";
 
 export const PaymentCase = () => {
-    const { paymentID } = useParams();
-    let content = <div>
-        Build for change<br/>
-        <hr/>
-        Create a web embed that shows the payment case with id: {paymentID}
+    const { caseID } = useParams();
 
-    </div>;
+    const basePegaDivProps: BasePegaDivProps = {
+        action: PEGA_ACTION.OpenCase,
+        caseID: caseID,
+        casePage: 'full',
+        appAlias: 'servicing',
+        startingFields: '{}'
+    }
 
+
+    const pegaDiv = basePegaDiv(basePegaDivProps);
     return (
-        <div className="flex flex-col overflow-x-auto">
-            <div className="sm:-mx-6 lg:-mx-8">
-                <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                    <div className="overflow-x-auto">
-                        {content}
-                    </div>
-                </div>
-            </div>
+        <div className="flex flex-col bg-white bg-bofa-white m-4 min-w-fit p-2">
+            <SectionHeader title='Payment' maximizeRoute="/payments" defaultState={viewState.MAX}></SectionHeader>
+            
+            <TWPegaDiv {...pegaDiv} ></TWPegaDiv>
         </div>
     )
 }

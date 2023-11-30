@@ -9,6 +9,7 @@ export interface PegaDivProps {
     pageID?:string,
     pageClass?:string,
     casePage: string,
+    caseID?: string,
     appAlias: string,
     pegaServerUrl: string,
     staticContentUrl: string,

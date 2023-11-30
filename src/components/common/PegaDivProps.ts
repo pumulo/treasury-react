@@ -16,20 +16,22 @@ const staticContentUrl = 'https://prod-cdn.constellation.pega.io/8.23.0-110/reac
 const authService = 'pega';
 const PEGA_ACTION = {
     CreateCase: 'createCase',
-    OpenPage: 'openPage'
+    OpenPage: 'openPage',
+    OpenCase: 'openCase'
 }
 interface BasePegaDivProps {
     action: string;
     caseTypeID?: string;
+    caseID?: string;
     casePage: string;
     appAlias: string;
     startingFields: string;
-    pageID?: string,
+    pageID?: string;
     pageClass?: string
 }
 
 const basePegaDiv = (props: BasePegaDivProps) => {
-    const {action, caseTypeID, casePage, appAlias, startingFields, pageID, pageClass} = props;
+    const {action, caseTypeID, caseID, casePage, appAlias, startingFields, pageID, pageClass} = props;
     const pegaDiv: PegaDivProps = {
         id,
         action,
@@ -47,6 +49,9 @@ const basePegaDiv = (props: BasePegaDivProps) => {
     }
     if (caseTypeID) {
         pegaDiv.caseTypeID = caseTypeID
+    }
+    if (caseID) {
+        pegaDiv.caseID = caseID
     }
     if (pageClass) {
         pegaDiv.pageClass = pageClass

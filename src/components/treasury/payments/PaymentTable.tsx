@@ -16,7 +16,7 @@ export const PaymentTable = () => {
     //@ts-ignore
     const paymentClickedListener = useCallback( e => {
         // go to page
-        navigate(`/payments/${e.data.id}`);
+        navigate(`/payments/${e.data.reference}`);
         
     });
 
@@ -50,7 +50,10 @@ export const PaymentTable = () => {
                     date: payment.values.Date,
                     frequency: payment.values.Frequency,
                     destination: payment.values.Destination,
-                    status: payment.values.Status
+                    status: payment.values.Status,
+                    method: payment.values.Method,
+                    payee: payment.values.PayeeName,
+                    reference: payment.values.ReferenceNumber
                 }
             })
             const columnDefs: (ColDef<any, any> | ColGroupDef<any>)[] | null | undefined = [
@@ -59,6 +62,9 @@ export const PaymentTable = () => {
                 {field: 'frequency', sortable: true, filter: true},
                 {field: 'destination', sortable: true, filter: true},
                 {field: 'status', sortable: true, filter: true},
+                {field: 'method', sortable: true, filter: true},
+                {field: 'payee', sortable: true, filter: true},
+                {field: 'reference', sortable: true, filter: true},
             ]
             //@ts-ignore
             content = <AgGridReact rowData={userRows} columnDefs={columnDefs} animateRows={true} onCellClicked={paymentClickedListener}/>
