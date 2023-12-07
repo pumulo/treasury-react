@@ -1,4 +1,4 @@
-import React, { MutableRefObject, ReactElement, createElement, forwardRef, useRef } from "react";
+import React, { ReactElement, createElement, useRef } from "react";
 import { COLOR } from "./theme";
 import PegaEmbedWrapper from "./PegaEmbedWrapper";
 

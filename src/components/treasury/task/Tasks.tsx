@@ -7,7 +7,7 @@ export const Tasks = () => {
     const basePegaDivProps: BasePegaDivProps = {
         action: PEGA_ACTION.OpenPage,
         caseTypeID: 'Bank-Treasury-Servicing-Work-AccountMaintenance',
-        casePage: 'assignmentWithStages',
+        casePage: 'full',
         appAlias: 'servicing',
         startingFields: `{}`,
         pageID:'pyWorklist',

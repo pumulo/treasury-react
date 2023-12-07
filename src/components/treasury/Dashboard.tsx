@@ -3,6 +3,7 @@ import { AccountsCard } from "./account/AccountsCard";
 import { Messages } from "./Messages";
 import { UsersCard } from "./user/UsersCard";
 import { PaymentsCard } from "./payments/PaymentsCard";
+import { viewState } from "./SectionHeader";
 
 const Dashboard = () => {
     return (
@@ -22,7 +23,7 @@ const Dashboard = () => {
                 {/* rights panel */}
                 <div className="flex flex-col w-1/4 min-h-fit">
                     {/* <TasksCard /> */}
-                    <Messages />
+                    <Messages defaultState={viewState.MIN}/>
                 </div>
             </div>
         </div>

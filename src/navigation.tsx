@@ -21,6 +21,7 @@ import { TransactionSummary } from "./components/treasury/account/TransactionSum
 import { PaymentPegaWidget } from "./components/treasury/payments/PaymentPegaWidget";
 import { PaymentCase } from "./components/treasury/payments/PaymentCase";
 import { CreatePayment } from "./components/treasury/payments/CreatePayment";
+import { viewState } from "./components/treasury/SectionHeader";
   
 const router = createBrowserRouter(
     [
@@ -120,7 +121,7 @@ const router = createBrowserRouter(
                 {
                     path:"/messages",
                     element: (
-                        <Messages />
+                        <Messages defaultState={viewState.MAX} />
                     )
                 },
                 {
