@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 const CashPro = () => {
     return (
-        <div className="min-h-screen h-screen flex flex-col">
+        <div className="min-h-full h-fit flex flex-col">
             <Navbar />
             <Outlet />
         </div>

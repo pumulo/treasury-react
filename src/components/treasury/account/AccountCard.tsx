@@ -17,7 +17,7 @@ export const AccountCard = (props: any) => {
                 <h5 className="mb-2 text-sm font-light leading-tight border-bofa dark:text-neutral-50">
                     {account.Organization}
                 </h5>
-                <h5 className="mb-4 text-lg font-semibold leading-tight border-bofa dark:text-neutral-50 text-center">
+                <h5 className="mb-4 text-base font-semibold leading-tight border-bofa dark:text-neutral-50 text-center">
                     {account.FinancialAttributes.CurrentBalance}
                 </h5>
                 <p className="mb-3 text-xs font-extralight leading-tight border-bofa dark:text-neutral-50" title={account.OrganizationInformation}>{description}</p>

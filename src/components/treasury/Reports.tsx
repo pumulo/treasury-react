@@ -6,7 +6,7 @@ import { BasePegaDivProps, PEGA_ACTION, basePegaDiv } from "../common/PegaDivPro
 export const Reports = () => {
     const basePegaDivProps: BasePegaDivProps = {
         action: PEGA_ACTION.OpenPage,
-        casePage: 'assignmentWithStages',
+        casePage: 'full',
         appAlias: 'servicing',
         startingFields: `{}`,
         pageID:'pyDashboardsManager',

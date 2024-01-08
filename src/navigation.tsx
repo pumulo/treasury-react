@@ -3,7 +3,7 @@ import {
 } from "react-router-dom";
 
 import AppLayout from "./components/AppLayout";
-import Dashboard from "./components/treasury/Dashboard";
+import { Dashboard } from "./components/treasury/Dashboard";
 import { Accounts } from "./components/treasury/account/Accounts";
 import { ManageUsers } from "./components/treasury/ManageUsers";
 import { Reports } from "./components/treasury/Reports";
