@@ -11,7 +11,7 @@ interface CardAttributes {
     className: string,
     link: string
 }
-function Card1(props: CardAttributes) {
+export function Card1(props: CardAttributes) {
     const { heading, className, link } = props;
     return (
         <NavLink
