@@ -26,7 +26,7 @@ export const TWPegaDiv = (props: PegaDivProps) => {
     const ref = useRef(pegaDiv);
    
     return (
-        <div className={"flex items-center p-2 mx-auto rounded-sm shadow-sm space-x-4 mt-2 " + props.width? props.width: "min-w-fit" + COLOR.primaryBG}>
+        <div className={"flex items-center p-2 mx-auto rounded-sm shadow-sm space-x-4 mt-2 " + props.width? props.width: "min-w-fit" + COLOR.bofa.primaryBG}>
             <div className="flex flex-col min-h-fit min-w-fit">
                 <PegaEmbedWrapper
                     {...props}

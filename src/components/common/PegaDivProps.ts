@@ -1,14 +1,16 @@
 import { PegaDivProps } from "./PegaDiv";
+import { COLOR } from "./theme";
 
 const theme = `{
     "base": {
     "palette": {
-        "brand-primary": "#E31837",
-        "foreground-color": "#012169",
-        "app-background": "#FFFFFF"
+        "brand-primary": "${COLOR.bofa.red}",
+        "foreground-color": "${COLOR.bofa.DEFAULT}",
+        "app-background": "${COLOR.bofa.white}"
     }
     }
 }`;
+
 const id = 'theEmbed'
 const clientId = '75166639853513919740';
 const pegaServerUrl =  'https://treasury.pegatsdemo.com/prweb/';
