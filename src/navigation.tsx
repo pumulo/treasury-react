@@ -22,6 +22,7 @@ import { PaymentPegaWidget } from "./components/treasury/payments/PaymentPegaWid
 import { PaymentCase } from "./components/treasury/payments/PaymentCase";
 import { CreatePayment } from "./components/treasury/payments/CreatePayment";
 import { viewState } from "./components/treasury/SectionHeader";
+import { ServiceDashboardHome } from "./components/treasury/service_dashboard/ServiceDashboardHome";
   
 const router = createBrowserRouter(
     [
@@ -86,6 +87,12 @@ const router = createBrowserRouter(
                     path:"/deposits/:accountID",
                     element: (
                         <RemoteDeposit />
+                    )
+                },
+                {
+                    path:"/service_dashboard",
+                    element: (
+                        <ServiceDashboardHome />
                     )
                 },
                 {

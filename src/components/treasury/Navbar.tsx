@@ -57,8 +57,8 @@ const Navbar = () => {
                 {/* nav links here */}
                 <div className="flex flex-col md:px-10 py-2 px-7 md:flex ">
                     <div className="text-base text-bofa-light">
-                        Last Login: November 19, 2023 9:24 AM EST <br />
-                        UserId: Becky_Smith <br />
+                        Last Login: February 7, 2024 9:24 AM EST <br />
+                        UserId: pumulo.sikaneta@pega.com <br />
                     </div>
                     <div className="flex text-2xl cursor-pointer items-baseline gap-2 ">
                         <ul className='md:flex md-items-center text-bofa'>
