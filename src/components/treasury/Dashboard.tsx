@@ -17,14 +17,13 @@ const DashboardI = () => {
                         <div className="flex flex-row min-w-full min-h-fit p-0">
                             {/* wide workspace panel */}
                             <div className="flex flex-col w-full min-h-fit">
-                                <ServiceDashboardCard width='min-w-1/4'/>
+                                <PaymentsCard width='min-w-1/4'/>
                             </div>
                         </div>
                         <div className="flex flex-row min-w-full min-h-fit p-0">
                             {/* narrow workspace panel */}
                             <div className="flex flex-col w-full min-h-fit">
                                 <AccountsCard width='min-w-1/4'/>
-                                <PaymentsCard width='min-w-1/4'/>
                             </div>
                             {/* wide workspace panel */}
                             {/* <div className="flex flex-col w-2/3 min-h-fit">

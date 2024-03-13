@@ -17,9 +17,9 @@ import icon from '../../assets/images/bofa.jpeg';
 
 const Navbar = () => {
     const links = [
+        {name: 'Service Dashboard', id: 'serviceDashboardNavId', link: '/service_dashboard', icon: <FaWrench></FaWrench>},
         {name: 'Chat', id: 'chatNavId', link: '/chat', icon: <FaComments></FaComments>},
         {name: 'Document Upload', id: 'docUploadNavId', link: '/uploads/new', icon: <FaUpload></FaUpload>},
-        {name: 'Messages & Tasks', id: 'messagesNavId', link: '/messages', icon: <FaWrench></FaWrench>},
         {name: 'Reports', id: 'reportsNavId', link: '/reports', icon: <FaTable></FaTable>},
         {name: 'Help', id: 'helpNavId', link: '/help', icon: <FaQuestionCircle></FaQuestionCircle>},
         {name: 'Logout', id: 'logoutNavId', link: '/', icon: <FaSignOutAlt></FaSignOutAlt>},
